@@ -26,7 +26,7 @@ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
 const form = document.getElementById('rsvpForm');
 const statusEl = document.getElementById('status');
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycby643gU3WWRyOTyTuvGZHVhH5V0w6KpGPO54CFqW3ao4kUt64EMKZMtXGiFGa_DAyez/exec";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwX8PcLnvAsOPgKbzRL4BJWl76Q5bjM3f26Nm1_617hRRbFczcXXizop8HSOhU8hgWraQ/exec";
 form.addEventListener('submit', async (e)=>{
   e.preventDefault();
   const formData = new FormData(form);
